@@ -1,0 +1,390 @@
+body{
+    background-color: #0E1947;
+}
+.bandeau{
+    position: absolute;
+    width: 100%;
+    height: 8vw;
+    left: 0px;
+    top: 0px;
+    background: #353D62;
+}
+
+.accueil{
+    position: relative;
+    display: block;
+    margin-left: 3%;
+    margin-top: 4%;
+    font-size: 1.5vw;
+    color: #939AB0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.accueil:hover{
+    cursor: pointer;
+}
+
+.magasin{
+    position: relative;
+    margin-left: 11%;
+    margin-top: -3.2%;
+    font-size: 1.5vw;
+    color: #939AB0;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.magasin:hover{
+    cursor: pointer;
+}
+.gestion{
+    position: relative;
+    margin-left: 19%;
+    margin-top: -3.2%;
+    font-size: 1.5vw;
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.gestion:hover{
+    cursor: pointer;
+}
+.icones{
+    position: relative;
+    margin-left: 65%;
+    margin-top: -4%;
+}
+.coeur{
+    position: relative;
+    margin-left: 3%;
+    width: 2.5vw;
+}
+.coeur:hover{
+    cursor: pointer;
+}
+.panier{
+    position: relative;
+    margin-left: 3%;
+    width: 2.5vw;
+}
+.panier:hover{
+    cursor: pointer;
+}
+.message{
+    position: relative;
+    margin-left: 3%;
+    width: 2.5vw;
+}
+.message:hover{
+    cursor: pointer;
+}
+
+.name{
+    position: relative;
+    margin-left: 83%;
+    margin-top: -2%;
+    font-size: 1.3vw;
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+}
+.name:hover{
+    cursor: pointer;
+}
+.pp{
+    position: relative;
+    margin-left: 90%;
+    margin-top: 2.5vw;
+    width: 4vw;
+
+}
+.pp:hover{
+    cursor: pointer;
+}
+.bandeau2{
+    position: absolute;
+    width: 100%;
+    height: 6vw;
+    left: 0px;
+    top: 8vw;
+    background: #262D4F;
+}
+
+
+
+.nav{
+    width: 20%;
+    height: 2vw;
+    position: relative;
+    left: 2%;
+    margin-top: 2vw;
+    color: #939AB0;
+    background: #262D4F;
+    mix-blend-mode: normal;
+    border: 2px solid #939AB0;
+    border-radius: 10px;
+}
+
+.vector{
+    position: relative;
+    display: block;
+    margin-left: 25%;
+    margin-top: -2%;
+    width: 2.5vw;
+    
+}
+.vector:hover{
+    cursor: pointer;
+}
+.grid{
+    position: relative;
+    display: block;
+    margin-left: 29%;
+    margin-top: -2.6%;
+    width: 3vw;
+}
+.grid:hover{
+    cursor: pointer;
+}
+.list{
+    position: relative;
+    display: block;
+    margin-left: 33%;
+    margin-top: -3.5%;
+    width: 4vw;
+}
+.list:hover{
+    cursor: pointer;
+}
+.bandeau3{
+    position: absolute;
+    top: 14.1vw;
+    left: 0px;
+    width: 30%;
+    background-color: #262D4F;
+    height:100%;
+}
+
+.client_button{
+    background: #4B5689;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-top:5%;
+    margin-left: 15%;
+    text-align:center;
+    color: #939AB0;
+    font-size: 1.5vw;
+    width: 70%;
+    height: 8%;
+}
+
+*
+
+
+.command_button{
+    background: #353D62;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-top:5%;
+    margin-left: 15%;
+    text-align:center;
+    color: #939AB0;
+    font-size: 1.5vw;
+    width: 70%;
+    height: 4vw;
+}
+
+.command_button:hover{
+    background: #353D62;
+    cursor: pointer;
+    width: 69%;
+    height: 3.8vw;
+}
+
+.command_button:active{
+    background: #4B5689;
+    cursor: pointer;
+    width: 69%;
+    height: 3.8vw;
+}
+
+
+
+
+.table2{
+    background-color: #262D4F;
+    position: relative;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+.id{
+    width: 1vw;
+    border-right: #4B5689 solid 3px;
+    border-bottom: #4B5689 solid 3px;
+    text-align: center;  
+    color: #FFF;
+    font-size: 1vw;
+}
+.prenom{
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;  
+    color: #FFF;
+    font-size: 1vw;
+}
+.nom{
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center; 
+    color: #FFF; 
+    font-size: 1vw;
+}
+.tel{
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;  
+    color: #FFF;
+    font-size: 1vw;
+}
+.mail{
+    
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center; 
+    color: #FFF; 
+    font-size: 1vw;
+}
+.facebook{
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;  
+    color: #FFF;
+    font-size: 1vw;
+}
+.instagrame{
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    text-align: center;    
+    color: #FFF;
+    font-size: 1vw;
+}
+.ligne{
+    line-height:3vw;
+    text-align: center;
+
+}
+
+.btn{
+    position: relative;
+    margin-left: 65%;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    border: none;
+    font-size: 0.8vw;
+    background-color: #1E90FF;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+.saisie_prenom{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 5%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+    
+}
+.saisie_nom{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+.saisie_tel{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+.saisie_mail{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+
+.saisie_facebook{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+
+.saisie_insta{
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+
+.btninsc{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    font-size: 0.8vw;
+    border: none;
+    background-color: #1E90FF;
+}
+.btninsc:hover{
+    cursor: pointer;
+}
+
+.alert2{
+    position: relative;
+    top: 8vw;
+    left: 57%;
+    font-size: X-large;
+    color: red;
+    text-shadow: 0 0 0.1em red;
+    
+    }
+    
+    .alert{
+        position: relative;
+        top: 8vw;
+        left: 57%;
+      font-size: X-large;
+      color: green;
+      text-shadow: 0 0 0.1em green;
+      
+      }
