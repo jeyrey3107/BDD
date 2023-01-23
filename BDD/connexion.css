@@ -1,22 +1,22 @@
-body{
-    background-color: #0E1947;
+body {
+  background-color: #0E1947;
 }
 
 
 
-h1{
-    font-size: 5vw;
-    color:white;
-    text-shadow: 0 0 0.1em black, 0 0 0.2em #1E90FF, 0 0 0.4em #1E90FF;
-    position: relative;
-    margin-top: 5%;
-    margin-left: 30%;
+h1 {
+  font-size: 5vw;
+  color: white;
+  text-shadow: 0 0 0.1em black, 0 0 0.2em #1E90FF, 0 0 0.4em #1E90FF;
+  position: relative;
+  margin-top: 5%;
+  margin-left: 30%;
 }
 
 
-.div{
+.div {
   border-radius: 50px;
-  border:#fff solid 1px;
+  border: #fff solid 1px;
   background-color: #262D4F;
   width: 60%;
   position: relative;
@@ -45,60 +45,61 @@ h1{
   }*/
 
 
-  .searchbar0{
-    position: relative;
-    margin-top: 0%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding:15px;
-    border-radius: 10px;
-  }
-  .searchbar1{
-    position: relative;
-    margin-top: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding:15px;
-    border-radius: 10px;
-  }
-
-  .btn {        
-    font-size: 1vw;
-    color: #fff;
-    position:relative;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 30px;
-    text-align: center;
-    border-radius: 25px 25px;
-    background-color: #1E90FF;
+.searchbar0 {
+  position: relative;
+  margin-top: 0%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 10px;
 }
 
-.alert{
-position: relative;
-top: 34%;
-left: 45%;
-font-size: 2vw;
-color: red;
-text-shadow: 0 0 0.1em red;
-text-align: center;
-width: 15%;
+.searchbar1 {
+  position: relative;
+  margin-top: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.btn {
+  font-size: 1vw;
+  color: #fff;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 25px 25px;
+  background-color: #1E90FF;
+}
+
+.alert {
+  position: relative;
+  top: 34%;
+  left: 45%;
+  font-size: 2vw;
+  color: red;
+  text-shadow: 0 0 0.1em red;
+  text-align: center;
+  width: 15%;
 
 
 }
 
-.alert2{
+.alert2 {
   position: relative;
   top: 34%;
   left: 41%;
   font-size: X-large;
   color: green;
   text-shadow: 0 0 0.1em green;
-  
-  }
+
+}

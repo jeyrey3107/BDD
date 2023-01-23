@@ -1,7 +1,8 @@
-body{
+body {
     background-color: #0E1947;
 }
-.bandeau{
+
+.bandeau {
     position: absolute;
     width: 100%;
     height: 8vw;
@@ -10,7 +11,7 @@ body{
     background: #353D62;
 }
 
-.accueil{
+.accueil {
     position: relative;
     display: block;
     margin-left: 3%;
@@ -20,11 +21,12 @@ body{
     font-family: 'Inter';
     font-style: normal;
 }
-.accueil:hover{
+
+.accueil:hover {
     cursor: pointer;
 }
 
-.magasin{
+.magasin {
     position: relative;
     margin-left: 11%;
     margin-top: -3.2%;
@@ -33,10 +35,12 @@ body{
     font-family: 'Inter';
     font-style: normal;
 }
-.magasin:hover{
+
+.magasin:hover {
     cursor: pointer;
 }
-.gestion{
+
+.gestion {
     position: relative;
     margin-left: 19%;
     margin-top: -3.2%;
@@ -45,40 +49,48 @@ body{
     font-family: 'Inter';
     font-style: normal;
 }
-.gestion:hover{
+
+.gestion:hover {
     cursor: pointer;
 }
-.icones{
+
+.icones {
     position: relative;
     margin-left: 65%;
     margin-top: -4%;
 }
-.coeur{
+
+.coeur {
     position: relative;
     margin-left: 3%;
     width: 2.5vw;
 }
-.coeur:hover{
-    cursor: pointer;
-}
-.panier{
-    position: relative;
-    margin-left: 3%;
-    width: 2.5vw;
-}
-.panier:hover{
-    cursor: pointer;
-}
-.message{
-    position: relative;
-    margin-left: 3%;
-    width: 2.5vw;
-}
-.message:hover{
+
+.coeur:hover {
     cursor: pointer;
 }
 
-.name{
+.panier {
+    position: relative;
+    margin-left: 3%;
+    width: 2.5vw;
+}
+
+.panier:hover {
+    cursor: pointer;
+}
+
+.message {
+    position: relative;
+    margin-left: 3%;
+    width: 2.5vw;
+}
+
+.message:hover {
+    cursor: pointer;
+}
+
+.name {
     position: relative;
     margin-left: 83%;
     margin-top: -2%;
@@ -87,20 +99,24 @@ body{
     font-family: 'Inter';
     font-style: normal;
 }
-.name:hover{
+
+.name:hover {
     cursor: pointer;
 }
-.pp{
+
+.pp {
     position: relative;
     margin-left: 90%;
     margin-top: 2.5vw;
     width: 4vw;
 
 }
-.pp:hover{
+
+.pp:hover {
     cursor: pointer;
 }
-.bandeau2{
+
+.bandeau2 {
     position: absolute;
     width: 100%;
     height: 6vw;
@@ -111,7 +127,7 @@ body{
 
 
 
-.nav{
+.nav {
     width: 20%;
     height: 2vw;
     position: relative;
@@ -124,85 +140,88 @@ body{
     border-radius: 10px;
 }
 
-.vector{
+.vector {
     position: relative;
     display: block;
     margin-left: 25%;
     margin-top: -2%;
     width: 2.5vw;
-    
+
 }
-.vector:hover{
+
+.vector:hover {
     cursor: pointer;
 }
-.grid{
+
+.grid {
     position: relative;
     display: block;
     margin-left: 29%;
     margin-top: -2.6%;
     width: 3vw;
 }
-.grid:hover{
+
+.grid:hover {
     cursor: pointer;
 }
-.list{
+
+.list {
     position: relative;
     display: block;
     margin-left: 33%;
     margin-top: -3.5%;
     width: 4vw;
 }
-.list:hover{
+
+.list:hover {
     cursor: pointer;
 }
-.bandeau3{
+
+.bandeau3 {
     position: absolute;
     top: 14.1vw;
     left: 0px;
     width: 30%;
     background-color: #262D4F;
-    height:100%;
+    height: 100%;
 }
 
-.client_button{
+.client_button {
     background: #353D62;
     border-radius: 10px;
     border: none;
     position: relative;
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 15%;
-    text-align:center;
+    text-align: center;
     color: #939AB0;
     font-size: 1.5vw;
     width: 70%;
     height: 4vw;
 }
 
-*
-
-
-.command_button{
+* .command_button {
     background: #4B5689;
     border-radius: 10px;
     border: none;
     position: relative;
-    margin-top:5%;
+    margin-top: 5%;
     margin-left: 15%;
-    text-align:center;
+    text-align: center;
     color: #939AB0;
     font-size: 1.5vw;
     width: 70%;
     height: 8%;
 }
 
-.client_button:hover{
+.client_button:hover {
     background: #353D62;
     cursor: pointer;
     width: 69%;
     height: 3.8vw;
 }
 
-.client_button:active{
+.client_button:active {
     background: #4B5689;
     cursor: pointer;
     width: 69%;
@@ -212,149 +231,168 @@ body{
 
 
 
-.table2{
+.table2 {
     background-color: #262D4F;
     position: relative;
     margin-left: 33%;
     margin-right: 2%;
     margin-top: 10%;
+    width: 60%;
 }
-.id{
+
+.id {
     column-width: 0.1vw;
     border-right: #4B5689 solid 3px;
     border-bottom: #4B5689 solid 3px;
-    text-align: center;  
+    text-align: center;
     color: #FFF;
     font-size: 1vw;
 }
-.date{
-    column-width: 1vw;
+
+.date {
+    column-width: 3vw;
     border-bottom: #4B5689 solid 3px;
     border-right: #4B5689 solid 3px;
-    text-align: center;  
+    text-align: center;
     color: #FFF;
     font-size: 1vw;
 }
-.ref{
+
+.ref {
     column-width: 2vw;
     border-bottom: #4B5689 solid 3px;
     border-right: #4B5689 solid 3px;
-    text-align: center; 
-    color: #FFF; 
-    font-size: 1vw;
-}
-.totcom{
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;  
-    color: #FFF;
-    font-size: 1vw;
-}
-.deptot{
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center; 
-    color: #FFF; 
-    font-size: 1vw;
-}
-.apayer{
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;  
-    color: #FFF;
-    font-size: 1vw;
-}
-.points{
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;    
-    color: #FFF;
-    font-size: 1vw;
-}
-.status{
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;    
-    color: #FFF;
-    font-size: 1vw;
-}
-.Nmois{
-    column-width: 0.1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;    
-    color: #FFF;
-    font-size: 1vw;
-}
-.MF{
-    column-width: 0.1vw;
-    border-bottom: #4B5689 solid 3px;
-    
-    text-align: center;    
+    text-align: center;
     color: #FFF;
     font-size: 1vw;
 }
 
-.modif{
+.totcom {
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.deptot {
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.apayer {
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.points {
+    column-width: 1vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.status {
+    column-width: 2vw;
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.Nmois {
+    border-bottom: #4B5689 solid 3px;
+    border-right: #4B5689 solid 3px;
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+    width: 5vw;
+}
+
+.MF {
+    column-width: 0.1vw;
+    border-bottom: #4B5689 solid 3px;
+
+    text-align: center;
+    color: #FFF;
+    font-size: 1vw;
+}
+
+.modif {
     position: relative;
-    margin-left: 1vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
     width: 1vw;
 }
-.suppr{
+
+.suppr {
     position: relative;
-    margin-left: 1vw;
+    margin-top: 1vw;
+    margin-left: 3vw;
+    width: 1vw;
+
+
+}
+
+.slash {
+    position: relative;
+    top: 0.5vw;
+    color: black;
+    font-size: 2vw;
+    margin-left: 2.5vw;
     width: 1vw;
 }
-.caché2{
+
+.caché2 {
     position: relative;
-    margin-left: 1vw;
-    color: #413F54 ;
-    background-color: #413F54 ;
-    width: 0px;
-    height: 0px;
-    
+    margin-left: 3vw;
+    top: -1.8vw;
+    background-color: #262D4F;
+    width: 1vw;
+    opacity: 0;
+    height: 2vw;
+
 }
-.caché{
+
+.caché {
     position: relative;
-    margin-left: 1vw;
-    color: #413F54 ;
-    background-color: #413F54 ;
-    width: 0px;
-    height: 0px;    
+    margin-left: 2vw;
+    top: -1.8vw;
+    background-color: #262D4F;
+    width: 1vw;
+    opacity: 0;
+    height: 2vw;
+
 }
-.modifsupp{
-    column-width: 5%;
+
+.modifsupp {
+    width: 20%;
     border-bottom: #4B5689 solid 3px;
     font-size: 1vw;
     text-align: center;
     color: #FFF;
 }
-.ligne{
-    line-height:2vw;
+
+.ligne {
+    line-height: 2vw;
     text-align: center;
 
 }
-.btn{
-    position: relative;
-    margin-left: 65%;
-    margin-top: 5%;
-    border-radius: 5px;
-    width: 10%;
-    height: 2.5vw;
-    color: #FFF;
-    border: none;
-    background-color: #1E90FF;
-    font-size: 0.8vw;
-}
-.btn:hover{
-    cursor: pointer;
-}
-.num_commande{
+
+
+.num_commande {
     position: relative;
     margin-left: 57%;
     margin-top: 12%;
@@ -363,25 +401,8 @@ body{
     font-size: 0.8vw;
     border-radius: 15px;
 }
-.inser_date{
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    font-size: 0.8vw;
-    border-radius: 15px;
-}
-.referent{
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-.total_commande{
+
+.inser_date {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -391,7 +412,7 @@ body{
     border-radius: 15px;
 }
 
-.depot_total{
+.referent {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -401,7 +422,7 @@ body{
     font-size: 0.8vw;
 }
 
-.inser_apayer{
+.total_commande {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -410,7 +431,8 @@ body{
     font-size: 0.8vw;
     border-radius: 15px;
 }
-.inser_points{
+
+.depot_total {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -419,7 +441,8 @@ body{
     border-radius: 15px;
     font-size: 0.8vw;
 }
-.inser_status{
+
+.inser_apayer {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -428,7 +451,8 @@ body{
     font-size: 0.8vw;
     border-radius: 15px;
 }
-.num_mois{
+
+.inser_points {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -437,7 +461,18 @@ body{
     border-radius: 15px;
     font-size: 0.8vw;
 }
-.idClient{
+
+.inser_status {
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    font-size: 0.8vw;
+    border-radius: 15px;
+}
+
+.num_mois {
     position: relative;
     margin-left: 57%;
     margin-top: 2%;
@@ -446,10 +481,21 @@ body{
     border-radius: 15px;
     font-size: 0.8vw;
 }
-.btninsc{
+
+.idClient {
+    position: relative;
+    margin-left: 57%;
+    margin-top: 2%;
+    width: 15%;
+    height: 2vw;
+    border-radius: 15px;
+    font-size: 0.8vw;
+}
+
+.btninsc {
     position: relative;
     margin-left: 60%;
-    margin-top: 5%;
+    margin-top: 2%;
     border-radius: 5px;
     width: 10%;
     height: 2.5vw;
@@ -458,25 +504,118 @@ body{
     border: none;
     background-color: #1E90FF;
 }
-.btninsc:hover{
+
+.btninsc:hover {
     cursor: pointer;
 }
-.alert2{
+
+.alert2 {
     position: relative;
     top: 8vw;
     left: 57%;
     font-size: X-large;
     color: red;
     text-shadow: 0 0 0.1em red;
-    
-    }
-    
-    .alert{
-        position: relative;
-        top: 8vw;
-        left: 57%;
-      font-size: X-large;
-      color: green;
-      text-shadow: 0 0 0.1em green;
-      
-      }
+
+}
+
+.alert {
+    position: relative;
+    top: 8vw;
+    left: 57%;
+    font-size: X-large;
+    color: green;
+    text-shadow: 0 0 0.1em green;
+
+}
+
+.btn {
+    position: relative;
+    margin-left: 70%;
+    margin-top: 5%;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    border: none;
+    background-color: #1E90FF;
+    font-size: 0.8vw;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+.export {
+    position: relative;
+    margin-left: 55%;
+    top: -2.5vw;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    border: none;
+    background-color: #1E90FF;
+    font-size: 0.8vw;
+}
+
+.export:hover {
+    cursor: pointer;
+}
+
+.facture {
+
+    position: relative;
+    margin-left: 40%;
+    top: -5vw;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    border: none;
+    background-color: #1E90FF;
+    font-size: 0.8vw;
+
+}
+
+.facture:hover {
+    cursor: pointer;
+}
+
+.add{
+    position: relative;
+    left: 6vw;
+    top: -1.4vw;
+    border-radius: 5px;
+    width: 3vw;
+    height: 2.5vw;
+    color: #FFF;
+    border: none;
+    background-color: #1E90FF;
+    font-size: 0.8vw;
+
+}
+
+.nbadd{
+    position: relative;
+    left: 2vw;
+    top: 1vw;
+    border-radius: 5px;
+    width: 2vw;
+    height: 2vw;
+    font-size: 0.8vw;
+}
+
+.btnadd{
+    position: relative;
+    margin-left: 60%;
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 10%;
+    height: 2.5vw;
+    color: #FFF;
+    font-size: 0.8vw;
+    border: none;
+    background-color: #1E90FF;
+}

@@ -10,7 +10,7 @@
         
         
 
-        $check = $bdd->prepare('SELECT pseudo, email, password FROM utilisateurs WHERE email = ?');
+        $check = $bdd->prepare('SELECT email, password FROM user WHERE email = ?');
         $check->execute(array($email));
         $data = $check->fetch();
         $row = $check->rowCount();
@@ -24,15 +24,13 @@
             if(filter_var($email, FILTER_VALIDATE_EMAIL))
             {
                 
-                $password=hash('sha256',$password);
                 if($data['password']===$password)
                 {
                     
-                    $_SESSION['user'] = $data['pseudo'];
+                    $_SESSION['user'] = $data['email'];
                     header('Location: Clients.php');
                     die();
                 }else{ header('Location: index.php?login_err=password'); die(); }
             }else{ header('Location: index.php?login_err=email'); die(); }
         }else{ header('Location: index.php?login_err=already'); die(); }
     }else{ header('Location: index.php'); die();}
-?>

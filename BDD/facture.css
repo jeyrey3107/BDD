@@ -183,24 +183,10 @@ body {
     left: 0px;
     width: 30%;
     background-color: #262D4F;
-    height: 100%;
+    height: 200%;
 }
 
 .client_button {
-    background: #4B5689;
-    border-radius: 10px;
-    border: none;
-    position: relative;
-    margin-top: 5%;
-    margin-left: 15%;
-    text-align: center;
-    color: #939AB0;
-    font-size: 1.5vw;
-    width: 70%;
-    height: 8%;
-}
-
-* .command_button {
     background: #353D62;
     border-radius: 10px;
     border: none;
@@ -214,210 +200,72 @@ body {
     height: 4vw;
 }
 
-.command_button:hover {
+* .command_button {
+    background: #4B5689;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 15%;
+    text-align: center;
+    color: #939AB0;
+    font-size: 1.5vw;
+    width: 70%;
+    height: 4vw;
+}
+
+.client_button:hover {
     background: #353D62;
     cursor: pointer;
     width: 69%;
     height: 3.8vw;
 }
 
-.command_button:active {
+.client_button:active {
     background: #4B5689;
     cursor: pointer;
     width: 69%;
     height: 3.8vw;
 }
 
-
-
-
-.table2 {
-    background-color: #262D4F;
+.indic{
     position: relative;
-    margin-left: 33%;
-    margin-top: 10%;
-    width: 60%;
+    margin-left: 45%;
+    margin-top: 20%;
+    font-size: 1.5vw;
+    color: #939AB0;
 }
 
-.id {
-    width: 1vw;
-    border-right: #4B5689 solid 3px;
-    border-bottom: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.prenom {
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.nom {
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.tel {
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.mail {
-
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.facebook {
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    border-right: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.instagrame {
-    column-width: 1vw;
-    border-bottom: #4B5689 solid 3px;
-    text-align: center;
-    color: #FFF;
-    font-size: 1vw;
-}
-
-.ligne {
-    line-height: 3vw;
-    text-align: center;
-
+.id_saisie{
+    position: relative;
+    margin-left: 55%;
+    margin-top: 2%;
+    width: 15%;
 }
 
 .btn {
     position: relative;
-    margin-left: 65%;
+    margin-left: 58%;
     margin-top: 5%;
     border-radius: 5px;
     width: 10%;
     height: 2.5vw;
     color: #FFF;
     border: none;
-    font-size: 0.8vw;
     background-color: #1E90FF;
+    font-size: 0.8vw;
 }
 
 .btn:hover {
     cursor: pointer;
 }
 
-.saisie_prenom {
+.papier{
+    width: 0%;
+    height: 15vw;
+    background-color: #fff;
     position: relative;
-    margin-left: 57%;
-    margin-top: 5%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-
-}
-
-.saisie_nom {
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-
-.saisie_tel {
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-
-.saisie_mail {
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-
-.saisie_facebook {
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-
-.saisie_insta {
-    position: relative;
-    margin-left: 57%;
-    margin-top: 2%;
-    width: 15%;
-    height: 2vw;
-    border-radius: 15px;
-    font-size: 0.8vw;
-}
-
-.btninsc {
-    position: relative;
-    margin-left: 60%;
-    margin-top: 5%;
-    border-radius: 5px;
-    width: 10%;
-    height: 2.5vw;
-    color: #FFF;
-    font-size: 0.8vw;
-    border: none;
-    background-color: #1E90FF;
-}
-
-.btninsc:hover {
-    cursor: pointer;
-}
-
-.alert2 {
-    position: relative;
-    top: 8vw;
-    left: 57%;
-    font-size: X-large;
-    color: red;
-    text-shadow: 0 0 0.1em red;
-
-}
-
-.alert {
-    position: relative;
-    top: 8vw;
-    left: 57%;
-    font-size: X-large;
-    color: green;
-    text-shadow: 0 0 0.1em green;
-
+    margin-top: 10%;
+    left: 35%;
+    padding: 30%;
 }
